@@ -16,8 +16,6 @@ This is my Neovim (0.5+) configuration for everyday use.
 ./setup.sh
 ```
 
-Open a file with `nvim` and run `:PlugInstall`
-
 ### Linux
 This isn't tested, although I believe it should work.
 
