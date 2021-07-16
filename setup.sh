@@ -25,26 +25,26 @@ cp vim-plug/plugins.vim $HOME/.config/nvim/vim-plug/plugins.vim
 
 if ! command -v brew &> /dev/null
 then
-		echo "Missing Homebrew. Exiting..."
-    exit
+	echo "Missing Homebrew. Exiting..."
+	exit
 fi
 
 if ! command -v npm &> /dev/null
 then
-		echo "Missing NPM. Exiting..."
-    exit
+	echo "Missing NPM. Exiting..."
+	exit
 fi
 
 if ! command -v go &> /dev/null
 then
-		echo "Missing Go. Exiting..."
-    exit
+	echo "Missing Go. Exiting..."
+	exit
 fi
 
 
 if ! command -v nvim &> /dev/null
 then
-		brew install neovim
+	brew install neovim
 fi
 
 npm i -g \

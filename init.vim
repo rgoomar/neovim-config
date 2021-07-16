@@ -7,6 +7,7 @@ set termguicolors
 syntax on
 set hlsearch
 set completeopt=menuone,noselect
+set expandtab
 
 " Plugin Configurations
 
