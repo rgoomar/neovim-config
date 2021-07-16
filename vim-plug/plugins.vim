@@ -20,4 +20,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'projekt0n/github-nvim-theme'
+    Plug 'hashivim/vim-terraform'
 call plug#end()

@@ -8,6 +8,7 @@ syntax on
 set hlsearch
 set completeopt=menuone,noselect
 set expandtab
+let g:terraform_fmt_on_save=1
 
 " Plugin Configurations
 
