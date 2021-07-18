@@ -21,4 +21,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'projekt0n/github-nvim-theme'
     Plug 'hashivim/vim-terraform'
+    Plug 'tpope/vim-fugitive'
+    Plug 'glepnir/lspsaga.nvim'
 call plug#end()

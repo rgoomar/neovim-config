@@ -54,11 +54,15 @@ npm i -g \
 	dockerfile-language-server-nodejs \
 	typescript typescript-language-server \
 	vim-language-server \
-	graphql-language-service-cli
+	graphql-language-service-cli \
+	diagnostic-languageserver
 
-brew install hashicorp/tap/terraform-ls
-brew install rust-analyzer
-brew install ripgrep
+brew install \
+    tree-sitter \
+    luajit \
+    hashicorp/tap/terraform-ls \
+    rust-analyzer \
+    ripgrep
 
 GO111MODULE=on go get golang.org/x/tools/gopls@latest
 
