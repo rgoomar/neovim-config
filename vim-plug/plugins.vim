@@ -23,4 +23,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hashivim/vim-terraform'
     Plug 'tpope/vim-fugitive'
     Plug 'glepnir/lspsaga.nvim'
+    Plug 'hoob3rt/lualine.nvim'
+    Plug 'kyazdani42/nvim-web-devicons'
 call plug#end()

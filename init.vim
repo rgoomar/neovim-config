@@ -237,6 +237,8 @@ nvim_lsp.diagnosticls.setup {
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.tsx.used_by = { "javascript", "typescript.tsx" }
 
+require('lualine').setup()
+
 EOF
 
 nnoremap <silent>gh <cmd>lua require'lspsaga.provider'.lsp_finder()<CR>
