@@ -74,7 +74,7 @@ There are quite a few default keybindings in-use like for actions on files in Te
 | Description | Keybinding |
 | --- | --- |
 | Leader Key | , |
-| Go to declaration | gd |
+| Go to declaration | gD |
 | Go to implementation | gi |
 | Add workspace folder | SPACE + wa |
 | Remove workspace folder | SPACE + wr |
