@@ -51,6 +51,8 @@ The configuration and setup script will get you ready for the following language
 * VIM Script
 * GraphQL
 
+You can check if your language server is running properly with `:LspInfo` when in an open file.
+
 ### Auto Completion
 
 Utilizes [nvim-compe](https://github.com/hrsh7th/nvim-compe) for auto completion.
@@ -66,4 +68,29 @@ Uses [https://github.com/nvim-telescope/](nvim-telescope) for finding strings an
 
 ### Keybindings
 
-TODO
+These are the custom keybindings.
+There are quite a few default keybindings in-use like for actions on files in Telescope.
+
+| Description | Keybinding |
+| --- | --- |
+| Leader Key | , |
+| Go to declaration | gd |
+| Go to implementation | gi |
+| Add workspace folder | SPACE + wa |
+| Remove workspace folder | SPACE + wr |
+| List workspace folders | SPACE + wl |
+| Find definition & references | gh |
+| Code Action on Diagnosis | , + ca |
+| Render Hover Documentation | K |
+| Signature Help | gs |
+| Rename | gr |
+| Preview Definition | gd |
+| Show line diagnostics | , + cd |
+| Show cursor diagnostics | , + cc |
+| Jump to previous diagnostic | [e |
+| Jump to next diagnostic | ]e |
+| Focus to NERDTree | , + n |
+| Toggle NERDTree | CTRL + n |
+| Find in NERDTree | CTRL + f |
+| Find files | , + ff |
+| Ripgrep files | , + fg |
